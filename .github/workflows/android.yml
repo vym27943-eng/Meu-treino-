@@ -28,7 +28,8 @@ jobs:
 
       - name: Preparar Android SDK
         uses: android-actions/setup-android@v3
-        with: packages: platform-tools
+        with: 
+          packages: platform-tools
 
       - name: Extrair projeto
         run: |
